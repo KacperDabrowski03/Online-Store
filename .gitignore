@@ -1,0 +1,21 @@
+# sekrety i konfiguracja lokalna
+.env
+*.local.yml
+*.local.properties
+
+# backend (Maven)
+backend/target/
+
+# frontend (Angular)
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/coverage/
+
+# IDE i system
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
